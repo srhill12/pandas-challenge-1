@@ -1,17 +1,32 @@
-# pandas-challenge-1
+README: Client Sales Data Analysis
+Overview
+This project involves exploring, transforming, and analyzing a dataset of client orders to uncover insights about client spending, order details, and profitability. The dataset contains detailed information about client orders, including product categories, unit prices, quantities, shipping costs, and more.
 
- This purpose of this challenge is to demonstrate competency in exploring and analyzing data using the Pandas library.
+Requirements
+Python 3.x
+pandas library
 
-A dataset from a fictional e-commerce company was provided, and it was from this dataset that I used techniques learned from class to Explore the Data, Transform the Data, Confirm my Work, and Summarize and Analyze.
+Dataset
+The dataset is a CSV file named client_dataset.csv located in the Resources directory. It contains the following columns:
 
-# Sources
+first: First name of the client
+last: Last name of the client
+job: Job title of the client
+phone: Phone number of the client
+email: Email address of the client
+client_id: Unique identifier for the client
+order_id: Unique identifier for the order
+order_date: Date when the order was placed
+order_week: Week number when the order was placed
+order_year: Year when the order was placed
+item_id: Unique identifier for the item
+category: Category of the item
+subcategory: Subcategory of the item
+unit_price: Unit price of the item
+unit_cost: Unit cost of the item
+unit_weight: Unit weight of the item
+qty: Quantity of the item ordered
+line_number: Line number in the order
 
-Sources and inspiration from my work within this challenge came from power points from Module 4 and Activities from Module 4. Activity from 4.3 Answering_abstract_questions in particular was helpful.
-
-Other sources include resources and links provided by teaching staff from http:pandas.pydata.org were sources of inspiration and guidance.
-
-Xpert Learning Assistant was used to verify certain sorting functions I was not sure of.
-
-The assignment itself was used as a guide to check the correct answers.
-
-My experience in retail was used in my summary of findings.
+Conclusion
+Client 24741 leads the top five in Total Revenue, Total Cost, and Total Profit, suggesting a strong sales relationship. Client 33615 shows a good profit margin despite lower revenue, indicating effective cost management and pricing strategy. This analysis provides valuable insights into client spending behavior and profitability, helping to guide future business decisions.
